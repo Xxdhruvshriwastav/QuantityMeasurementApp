@@ -4,7 +4,6 @@ import com.apps.quantitymeasurement.QuantityMeasurementApp.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-
 public class QuantityMeasurementAppTest {
 
     @Test
@@ -28,6 +27,7 @@ public class QuantityMeasurementAppTest {
     }
 
     @Test
+    
     public void sameFeetReference() {
         Feet feet1 = new Feet(1.0);
         Assertions.assertEquals(feet1, feet1);
