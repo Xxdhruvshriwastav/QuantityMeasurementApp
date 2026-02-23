@@ -18,6 +18,7 @@ target/
 Thumbs.db
 
 # Temporary files
+*.iml
 *.tmp
 *.bak
 *.swp
