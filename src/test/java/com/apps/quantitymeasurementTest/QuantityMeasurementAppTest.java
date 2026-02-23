@@ -401,6 +401,7 @@ public class QuantityMeasurementAppTest {
     	Assertions.assertEquals(2e6, QuantityMeasurementApp.demonstrateLengthAddition(l1, l2).getValue());
     }
     
+    
     @Test
     public void testAddition_SmallValues() {
     	Length l1 = new Length(0.001, LengthUnit.FEET);
