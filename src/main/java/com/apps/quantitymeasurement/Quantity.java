@@ -141,6 +141,7 @@ public class Quantity<U extends IMeasurable> {
 		double convertedLength = lengthInFeet.convertTo(LengthUnit.INCHES).getValue();
 		System.out.println("!0 feet in inches: "+convertedLength);
 		
+		
 		Quantity<LengthUnit> totalLength = lengthInFeet.add(lengthInInches);
 		System.out.println(totalLength);
 		
