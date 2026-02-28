@@ -136,6 +136,7 @@ public class QuantityMeasurementApp {
 		
 		System.out.println("Inches and Feet division: "+QuantityMeasurementApp.demonstrateDivision(new Quantity(24, LengthUnit.INCHES), new Quantity(2, LengthUnit.FEET)));
 		
+		
 		System.out.println("Kilogram and Kilogram division: "+QuantityMeasurementApp.demonstrateDivision(new Quantity(10, WeightUnit.KILOGRAM), new Quantity(5, WeightUnit.KILOGRAM)));
 		
 		System.out.println("Litre and Litre division: "+QuantityMeasurementApp.demonstrateDivision(new Quantity(5, VolumeUnit.LITRE), new Quantity(10, VolumeUnit.LITRE)));
