@@ -15,6 +15,7 @@ public enum LengthUnit implements IMeasurable{
 		this.conversionFactor=conversionFactor;
 	}
 	
+	
 	public double getConversionFactor() {
 		return conversionFactor;
 	}
