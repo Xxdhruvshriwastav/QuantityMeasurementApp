@@ -41,7 +41,7 @@ main
 ---
 
 ## 📅 17 Feb 2026  
-### 🔹 UC1 – Feet Measurement Equality  
+### 🔹 UC1 – Feet Measurement Equality 
 **Branch:** `feature/UC1-FeetEquality`
 
 ### 🎯 Objective
@@ -54,7 +54,7 @@ main
 - Implemented equality logic  
 - Handled null and type safety  
 - Wrote JUnit 5 test cases  
-- [feature/UC1-FeetEquality]()
+- [feature/UC1-FeetEquality](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC1-FeetEquality)
 
 ---
 
@@ -70,7 +70,7 @@ main
 - Introduced conversion logic  
 - Implemented base unit comparison  
 - Improved equality handling  
-- [feature/UC2-InchEquality]()
+- [feature/UC2-InchEquality](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC2-InchEquality)
 
 ---
 
@@ -87,7 +87,7 @@ main
 - Centralized conversion logic  
 - Removed unit-specific duplication  
 - Improved abstraction  
-- [feature/UC3-GenericLength]()
+- [feature/UC3-GenericLength](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC3-GenericLength)
 
 ---
 
@@ -103,7 +103,7 @@ main
 - Introduced Unit Enum  
 - Base unit conversion mapping  
 - Easily extensible structure  
-- [feature/UC4-YardEquality]()
+- [feature/UC4-YardEquality](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC4-YardEquality)
 
 ---
 
@@ -118,7 +118,7 @@ main
 - Implemented `convertTo()` method  
 - Centralized conversion logic  
 - Ensured precision-safe calculations  
-- [feature/UC5-UnitConversoion]()
+- [feature/UC5-UnitConversoion](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC5-UnitConversion)
 
 ---
 
@@ -133,7 +133,7 @@ main
 - Converted to base unit before addition  
 - Accurate arithmetic operations  
 - Clean and reusable method structure  
-- [feature/UC6-UnitAddition]()
+- [feature/UC6-UnitAddition](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC6-UnitAddition)
 
 ---
 
@@ -149,7 +149,7 @@ main
 - Implemented `add(quantity, targetUnit)`  
 - Converted result before returning  
 - Maintained precision and scalability  
-- [feature/UC7-TargetUnitAddition]()
+- [feature/UC7-TargetUnitAddition](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC7-TargetUnitAddition)
 
 ---
 
@@ -166,7 +166,7 @@ main
 - Moved Unit enum to standalone file  
 - Improved separation of concerns  
 - Increased flexibility for new categories  
-- [feature/UC8-StandaloneUnit]()
+- [feature/UC8-StandaloneUnit](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC8-StandaloneUnit)
 
 ---
 
@@ -183,7 +183,7 @@ main
 - Implemented base unit conversion  
 - Ensured category-safe equality  
 - Prevented cross-category comparison (Length ≠ Weight)  
-- [feature/UC9-WeightEquality]()
+- [feature/UC9-WeightEquality](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC9-WeigthEquality)
 
 ---
 
@@ -204,7 +204,8 @@ main
   - Type-safe unit handling  
   - Category-safe operations  
   - Scalable architecture  
-- [feature/UC10-GenericQuantity]()
+- [feature/UC10-GenericQuantity](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC10-GenricQuality)
 
 ---
+
 
