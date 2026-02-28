@@ -206,6 +206,138 @@ main
   - Scalable architecture  
 - [feature/UC10-GenericQuantity](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC10-GenricQuality)
 
----
+📅 22 Feb 2026
+🔹 UC11 – Volume Measurement
+
+Branch: feature/UC11-VolumeMeasurement
+
+🎯 Objective
+
+Extend system to support Volume category
+
+Maintain generic & scalable architecture
+
+✅ Implementation
+
+Introduced Volume units (Litre, Millilitre, etc.)
+
+Implemented VolumeUnit enum implementing Unit interface
+
+Enabled:
+
+Category-safe equality
+
+Cross-unit comparison within Volume
+
+Ensured:
+
+Volume ≠ Length
+
+Volume ≠ Weight
+
+Maintained DRY & Clean Architecture
+
+[feature/UC11-VolumeMeasurement](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC11-VolumeMeasurement)
+
+📅 23 Feb 2026
+🔹 UC12 – Subtraction & Division
+
+Branch: feature/UC12-SubtractionAndDivision
+
+🎯 Objective
+
+Introduce arithmetic operations beyond addition
+
+✅ Implementation
+
+Implemented:
+
+subtract(quantity)
+
+divide(quantity)
+
+Used base unit conversion before operation
+
+Ensured:
+
+Type safety
+
+Category safety
+
+Precision-safe calculations
+
+Prevented invalid operations across categories
+
+Reused conversion logic (DRY)
+
+feature/UC12-SubtractionAndDivision
+
+📅 24 Feb 2026
+🔹 UC13 – Centralized Arithmetic Logic
+
+Branch: [feature/UC13-CentralizedArithmeticLogic](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC13-CentralizedArthematicLogic)
+
+🎯 Objective
+
+Remove duplication in arithmetic logic
+
+Follow Single Responsibility Principle
+
+✅ Implementation
+
+Introduced centralized arithmetic handler
+
+Used functional approach (like DoubleBinaryOperator)
+
+Unified:
+
+Addition
+
+Subtraction
+
+Division
+
+Enabled reusable arithmetic engine
+
+Improved maintainability & extensibility
+
+Fully aligned with Clean Code & DRY
+
+feature/UC13-CentralizedArithmeticLogic
+
+📅 25 Feb 2026
+🔹 UC14 – Temperature Measurement with Selective Arithmetic
+
+Branch: feature/UC14-TemperatureMeasurementwithSelectiveArithmetic
+
+🎯 Objective
+
+Introduce Temperature category
+
+Handle non-linear conversions (e.g., Celsius ↔ Fahrenheit)
+
+✅ Implementation
+
+Added TemperatureUnit enum
+
+Implemented offset-based conversion logic
+
+Restricted invalid arithmetic:
+
+❌ Addition not allowed
+
+❌ Subtraction not allowed (in some cases)
+
+Allowed:
+
+Equality comparison
+
+Conversion
+
+Introduced Selective Arithmetic Rule Engine
+
+Ensured domain correctness (Temperature ≠ Length logic)
+
+[feature/UC14-TemperatureMeasurementwithSelectiveArithmetic](https://github.com/Xxdhruvshriwastav/QuantityMeasurementApp/tree/feature/UC14-TempratureMesurement)
 
 
