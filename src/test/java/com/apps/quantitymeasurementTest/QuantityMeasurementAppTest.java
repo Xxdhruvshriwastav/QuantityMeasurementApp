@@ -1010,6 +1010,8 @@ public class QuantityMeasurementAppTest {
 	public void testDivision_WithSmallRatio() {
 		Assertions.assertEquals(1e-6, QuantityMeasurementApp.demonstrateDivision(new Quantity(1, WeightUnit.KILOGRAM), new Quantity(1e6, WeightUnit.KILOGRAM)));
 	}
+	
+	
 	@Test
 	public void testDivision_NullOperand() {
 		Assertions.assertThrows(IllegalArgumentException.class,()-> {
