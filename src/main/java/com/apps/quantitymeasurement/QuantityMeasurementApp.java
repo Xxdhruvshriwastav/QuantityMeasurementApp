@@ -1,4 +1,3 @@
-
 package com.apps.quantitymeasurement;
 
 import com.apps.quantitymeasurement.Quantity;
@@ -135,7 +134,6 @@ public class QuantityMeasurementApp {
 		System.out.println("Feet and Feet division: "+QuantityMeasurementApp.demonstrateDivision(new Quantity(10, LengthUnit.FEET), new Quantity(5, LengthUnit.FEET)));
 		
 		System.out.println("Inches and Feet division: "+QuantityMeasurementApp.demonstrateDivision(new Quantity(24, LengthUnit.INCHES), new Quantity(2, LengthUnit.FEET)));
-		
 		
 		System.out.println("Kilogram and Kilogram division: "+QuantityMeasurementApp.demonstrateDivision(new Quantity(10, WeightUnit.KILOGRAM), new Quantity(5, WeightUnit.KILOGRAM)));
 		
