@@ -1,4 +1,3 @@
-
 package com.apps.quantitymeasurement;
 
 import com.apps.quantitymeasurement.IMeasurable;
@@ -14,7 +13,6 @@ public enum LengthUnit implements IMeasurable{
 	LengthUnit(double conversionFactor){
 		this.conversionFactor=conversionFactor;
 	}
-	
 	
 	public double getConversionFactor() {
 		return conversionFactor;
